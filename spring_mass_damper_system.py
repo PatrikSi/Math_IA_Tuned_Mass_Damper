@@ -8,7 +8,7 @@ def solver(Y, t):
 
 
 a_t = np.arange(0, 25.0, 0.01)
-asol = integrate.odeint(solver, [1, 0], a_t)
+asol = integrate.odeint(solver, [0, 4], a_t)
 print(asol)
 plt.plot(asol[:, 0], label='position')
 plt.plot(asol[:, 1], label='velocity')
