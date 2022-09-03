@@ -29,7 +29,7 @@ for k_2 in k_2_list:
         disp_z.append(round(np.amax(asol[:, 0]), 3))
 
 ax = plt.axes(projection="3d")
-ax.scatter(k_x, b_y, disp_z, s=0.5)
+ax.scatter(k_x, b_y, disp_z, s=1)
 ax.set_xlabel("k")
 ax.set_ylabel("b")
 ax.set_zlabel("max_displacement")
