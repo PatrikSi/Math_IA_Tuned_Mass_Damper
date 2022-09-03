@@ -2,8 +2,8 @@ import numpy as np
 from scipy import integrate
 import matplotlib.pyplot as plt
 
-b = 4
-k = 4
+b = 1
+k = 2
 initial = [0, 4]
 
 
@@ -17,5 +17,6 @@ print(asol)
 plt.title(f'Only building, mass normalized, b={b}, k={k}')
 plt.plot(asol[:, 0], label='position')
 plt.plot(asol[:, 1], label='velocity')
+plt.xlim(0, 1000)
 plt.legend()
 plt.show()
