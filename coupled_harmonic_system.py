@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 b_1 = 1
 k_1 = 2
-b_2 = 1
-k_2 = 1
+b_2 = 0.9
+k_2 = 3.2
 m_2 = 0.5
 initial = [0, 4, 0, 0]
 
